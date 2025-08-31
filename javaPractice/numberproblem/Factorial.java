@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Factorial {
     public static void main(String[] args) {
-        try (Scanner s = new Scanner(System.in)) {   // Surround with try-with-resource, Automatically closes.
+        try (Scanner s = new Scanner(System.in)) {   // Surround with try-with-resource, Automatically closes. without expli. calling close
             //s.close(); warning wil go off;
             int n = s.nextInt();
             System.out.println(findFactorial(n));
