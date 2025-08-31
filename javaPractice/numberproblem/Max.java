@@ -1,4 +1,4 @@
-package Java.NumberProblem;
+package javaPractice.numberproblem;
 
 class DSA {
 

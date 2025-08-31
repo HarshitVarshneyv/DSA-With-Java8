@@ -1,18 +1,18 @@
-package NumberProblem;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.OptionalInt;
 import java.util.Scanner;
 
-class MaxNumber {
 
+class MaxNumber {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
         ArrayList<Integer> arr1 = takeUserInput();
         //findMax(arr);
         findMaxWithUserInput(arr1);
     }
+
 
     private static ArrayList<Integer> takeUserInput() {
         Scanner s = new Scanner(System.in);
@@ -26,6 +26,7 @@ class MaxNumber {
          return arr1;
     }
 
+
     private static void findMaxWithUserInput(ArrayList<Integer> arr1) {
         int max = arr1.stream().max(Integer::compare).orElse(null);
         OptionalInt max1 = arr1.stream().mapToInt(Integer::intValue).max();
@@ -34,8 +35,13 @@ class MaxNumber {
         //List<Integer>. If you're already using a primitive array, you're good to go with Arrays.stream(arr).max().
     }
 
+
     private static void findMax(int[] arr) {
         OptionalInt max = Arrays.stream(arr).max();
         System.out.println(max.getAsInt());
     }
 }
+
+
+
+
