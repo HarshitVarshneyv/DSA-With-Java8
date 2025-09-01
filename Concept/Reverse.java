@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.IntStream;
 
-public class Reverse {
+class ReverseInt {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
         reverseArr(arr);
