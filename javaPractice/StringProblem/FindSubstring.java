@@ -10,6 +10,7 @@ public class FindSubstring {
         //  s.close();
         String str1 = "takeuforward";
         String str2 = "forward";
+        withfuction(str1,str2);
         int i = 0 , j = 0;
         int ans = -1;
         while(i < str1.length()){
@@ -26,5 +27,11 @@ public class FindSubstring {
             }
             i++;
         }
+        System.out.println(ans);
+    }
+
+    private static void withfuction(String str1, String str2) {
+        int idx = str1.indexOf(str2);
+        System.out.println(idx);
     }
 }
