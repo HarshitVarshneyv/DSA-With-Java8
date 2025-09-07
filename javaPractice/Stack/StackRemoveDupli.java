@@ -1,4 +1,4 @@
-package javaPractice.numberproblem;
+package javaPractice.Stack;
 
 import java.util.Stack;
 
