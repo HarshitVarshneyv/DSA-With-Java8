@@ -1,11 +1,11 @@
 package javaPractice.StringProblem;
 import java.util.LinkedHashMap;
+import java.util.TreeMap;
 
 public class DupliWithOccur {
     public static void main(String[] args) {
         String str = "sinstriiintng";
         LinkedHashMap<Character,Integer> freq = new LinkedHashMap<>();
-
         for(char ch : str.toCharArray()){
             freq.put(ch,freq.getOrDefault(ch,0) + 1);
         }
