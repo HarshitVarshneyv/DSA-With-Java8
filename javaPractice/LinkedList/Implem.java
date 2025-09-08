@@ -1,9 +1,26 @@
 package javaPractice.LinkedList;
 
-import java.util.LinkedList;
+class Node{
+    int val;
+    Node next;
 
-public class Implem {
-    int[] arr = {1,2,3,4,5};
-    LinkedList l = new LinkedList<>();
+    Node(int val){
+        this.val = val;
+        this.next = null;
+    }
+}
+
+class LinkedList{
+    Node head;
+    Node tail;
+    private int size;
+    
+    LinkedList(){
+        head = tail = null;
+        size = 0;
+    }
+
+}
+class Main {
     
 }
