@@ -54,10 +54,12 @@ class LinkedList{
             Node newNode = new Node(val);
             size++;
             Node temp = head;
-            for (int i = 0; i < idx - 1; i++) temp = temp.next;
+            for (int i = 0; i < idx - 1; i++){
+                temp = temp.next;
+            }
             newNode.next = temp.next;
             temp.next = newNode;
-
+            
         }
     }
 }
