@@ -1,4 +1,4 @@
-package javaPractice.LinkedList;
+package javaPractice.realLinkedList;
 
 class Node{
     int val;
