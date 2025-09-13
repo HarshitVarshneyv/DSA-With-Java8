@@ -1,9 +1,27 @@
 package javaPractice.realLinkedList;
 
-import java.util.LinkedList;
+class ListNode {
+    ListNode next;
+    int val;
+
+    ListNode(int val) {
+        this.val = val;
+    }
+    ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+};
+
+class Solution{
+
+}
+
 public class Reverse {
     public static void main(String[] args) {
-        LinkedList<String> ll = new LinkedList<>();
-        
+        int[] arr = {1,2,3};
+        for(int i=0;i<arr.length;i++){
+            
+        }
     }
 }
