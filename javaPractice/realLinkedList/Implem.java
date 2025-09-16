@@ -85,5 +85,7 @@ class LinkedList{
     }
 }
 class Main {
-    
+ public static void main(String[] args) {
+    //Here we can use above methods...
+ }   
 }
