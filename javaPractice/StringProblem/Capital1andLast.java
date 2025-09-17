@@ -18,6 +18,7 @@ public class Capital1andLast {
             s.append(" ");
         }
         System.out.println("This is the ans");
+        System.out.println("Thos is the real ans");
         System.out.println(s.toString());
     }
 }
