@@ -1,7 +1,4 @@
 package javaPractice.StringProblem;
-
-import java.util.Arrays;
-
 public class Capital1andLast {
     public static void main(String[] args) {
         String str = "Take u Forward is Awesome";
