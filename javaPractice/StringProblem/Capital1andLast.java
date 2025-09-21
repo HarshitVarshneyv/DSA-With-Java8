@@ -15,5 +15,6 @@ public class Capital1andLast {
             s.append(" ");
         }
         System.out.println(s.toString());
+        System.out.println(s.toString());
     }
 }
