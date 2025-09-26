@@ -43,5 +43,6 @@ class MinStackMain {
     System.out.println(st.getMin()); // 2
     st.pop();
     System.out.println(st.getMin()); // 3
+    System.out.println("Good problem");
    }
 }
