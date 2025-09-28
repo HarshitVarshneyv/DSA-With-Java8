@@ -2,11 +2,11 @@ package javaPractice.Stack;
 
 import java.util.Stack;
 
-class MinStack{
+class b_MinStack{
     private Stack<Integer> st;
     private Stack<Integer> minStack;
 
-    public MinStack(){
+    public b_MinStack(){
         st = new Stack<>();
         minStack = new Stack<>();
     }
@@ -35,7 +35,7 @@ class MinStack{
 class MinStackMain {
    public static void main(String[] args) {
     
-    MinStack st = new MinStack();
+    b_MinStack st = new b_MinStack();
     st.push(5);
     st.push(3);
     st.push(7);
