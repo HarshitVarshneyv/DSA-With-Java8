@@ -26,3 +26,5 @@ public class SortCharacter {
         System.out.println(str);
     }
 }
+
+// int[] sorted = Arrays.stream(arr).sorted().toArray();
