@@ -1,4 +1,4 @@
-package javaPractice.Stack;
+package javaPractice.Stack.EasyProblem;
 import java.util.*;
 
 class Main {  // There is one more approach exists where we can use 2 pointers increase one if we have that one approach

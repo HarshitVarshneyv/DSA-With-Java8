@@ -1,4 +1,4 @@
-package javaPractice.Stack;
+package javaPractice.Stack.EasyProblem;
 
 import java.util.Stack;
 
