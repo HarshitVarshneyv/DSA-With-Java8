@@ -23,7 +23,7 @@ class Solution {
     }
 }
 
-class Solution1{
+class Solution2{
 public void rotate1(int[] nums, int k) {
     int n = nums.length;
     k = k % n;
