@@ -1,8 +1,39 @@
-public class Sort {
+import java.util.Arrays;
+
+//✅ Sorting int[] in Descending Order
+class DescSortClean {
     public static void main(String[] args) {
-        
+        int[] arr = {5, 1, 9, 3, 7};
+
+        // Step 1: Sort in ascending order
+        Arrays.sort(arr);
+
+        // Step 2: Reverse the array
+        for (int i = 0; i < arr.length / 2; i++) {
+            int temp = arr[i];
+            arr[i] = arr[arr.length - 1 - i];
+            arr[arr.length - 1 - i] = temp;
+        }
+
+        System.out.println(Arrays.toString(arr)); // [9, 7, 5, 3, 1]
     }
 }
+
+/* 
+⚡ If you’re allowed to use Java 8 Streams, here’s a one-liner alternative (less efficient but elegant):
+
+int[] sortedDesc = Arrays.stream(arr)
+                         .boxed()
+                         .sorted((a, b) -> b - a)
+                         .mapToInt(Integer::intValue)
+                         .toArray();
+
+ Convert int[] to Integer[]
+        Integer[] objectNumbers = Arrays.stream(arr).boxed().toArray(Integer[]::new);
+        Sort the object array in descending order
+        Arrays.sort(objectNumbers, Collections.reverseOrder());
+
+*/
 
 // You can view one photo in DSA Java see that ......
 
