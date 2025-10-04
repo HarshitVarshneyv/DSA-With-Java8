@@ -9,8 +9,18 @@ public class printSum {
     }
 
     private static void optimal(int[] arr) {
-       
-    }
+      int maxSum = Integer.MIN_VALUE,currSum = 0;
+      
+      for(int val : arr){
+        currSum += val;
+        maxSum = Integer.max(maxSum,currSum);
+        
+        if(currSum < 0 ){
+          currSum = 0;
+        }
+      }
+      System.out.println(maxSum);
+  }
 
     private static void bruteForceApproachTofindSum(int[] arr) {
        int n = arr.length;
