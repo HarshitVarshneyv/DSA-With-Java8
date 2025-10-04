@@ -1,8 +1,8 @@
-package javaPractice.Array;
+package javaPractice.Array.AllProblem;
 
 import java.util.*;
 
-class Main {
+class Remove {
     public static void main(String[] args) {
         int[] arr = {0,0,1,1,1,2,2,3,3,4};
         

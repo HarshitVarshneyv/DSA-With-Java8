@@ -1,4 +1,4 @@
-package javaPractice.Array;
+package javaPractice.Array.AllProblem;
 
 public class e_BestTimeToBuySell {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class e_BestTimeToBuySell {
 }
 
 
-    class Solution {
+class Solution1 {
         public int maxProfit(int[] prices) {
             int minPrice = prices[0] , profit = 0;
 

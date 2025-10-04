@@ -1,4 +1,4 @@
-package javaPractice.Array;
+package javaPractice.Array.AllProblem;
 
 public class c_AddOne {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package javaPractice.Array;
+package javaPractice.Array.AllProblem;
 
 import java.util.*;
 
