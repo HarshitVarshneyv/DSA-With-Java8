@@ -9,6 +9,7 @@ class Main {
         System.out.println(Arrays.toString(result));
     }
 
+    //This is a brute force approach
     public static int[] maxOfMinBrute(int[] arr) {
         int n = arr.length;
         int[] res = new int[n];
