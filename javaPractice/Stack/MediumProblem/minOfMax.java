@@ -7,6 +7,8 @@ class Main {
         int[] arr = {10, 20, 30, 50, 10, 70, 30};
         int[] result = maxOfMinBrute(arr);
         System.out.println(Arrays.toString(result));
+        System.out.println(Arrays.toString(result));
+        System.out.println(Arrays.toString(result));
     }
 
 
