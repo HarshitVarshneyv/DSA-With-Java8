@@ -4,7 +4,9 @@ import java.util.Set;
 import java.util.Stack;
 
 public class evalRPN {
-    
+    public static void main(String[] args) {
+        //This is a The classical problem to solve
+    }
 }
 
 
