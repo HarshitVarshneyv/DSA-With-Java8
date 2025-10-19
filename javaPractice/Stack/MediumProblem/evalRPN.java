@@ -5,7 +5,6 @@ import java.util.Stack;
 
 public class evalRPN {
     public static void main(String[] args) {
-        //This is an classic problem
     }
 }
 
