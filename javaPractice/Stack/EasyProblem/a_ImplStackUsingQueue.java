@@ -1,7 +1,7 @@
 //👉 So:
 //Pop-Costly version = Push is cheap (O(1)), Pop/Top are costly (O(n)).
 //Push-Costly version = Pop/Top are cheap (O(1)), Push is costly (O(n)).
-//We will do push costly version......
+//We will do push costly version......which is simple and best
 package javaPractice.Stack.EasyProblem;
 
 import java.util.*;
