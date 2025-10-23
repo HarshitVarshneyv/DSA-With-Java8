@@ -17,6 +17,7 @@ import java.util.*;
         System.out.println("Popped: " + stack.pop()); // 30
         System.out.println("Top element: " + stack.top()); // 20
         System.out.println("Is empty? " + stack.isEmpty()); // false
+        System.out.println("Is empty? " + stack.isEmpty()); // false
   }
 }
 
