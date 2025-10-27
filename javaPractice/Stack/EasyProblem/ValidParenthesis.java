@@ -13,9 +13,6 @@ public class ValidParenthesis {
         
         String s3 = "()[]{}";
         System.out.println(s3 + " is valid: " + solution.isValid(s3)); // true
-        
-        String s4 = "){";
-        System.out.println(s4 + " is valid: " + solution.isValid(s4)); // false
     }
 }
 
