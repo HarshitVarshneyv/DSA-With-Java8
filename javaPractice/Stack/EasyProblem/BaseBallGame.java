@@ -31,6 +31,7 @@ class Solution {
     //return s.stream().mapToInt(Integer::intValue).sum();
 
         // 2. Sum up all the scores remaining in the stack.
+        // 2. Sum up all the scores remaining in the stack.
         int totalSum = 0;
         for (int score : s) {
             totalSum += score;
